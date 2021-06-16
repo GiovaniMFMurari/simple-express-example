@@ -3,11 +3,11 @@ const connection = require('../database');
 
 const User = connection.define('User', {
   // Model attributes are defined here
-  firstName: {
+  name: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  lastName: {
+  description: {
     type: DataTypes.STRING
     // allowNull defaults to true
   }
